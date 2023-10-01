@@ -54,6 +54,7 @@ namespace RefactoringDemo
             DoSomethingCompletelyDifferent();
         }
 
+        #region
         public void DoSomething()
         {
             //Gör något
@@ -68,5 +69,6 @@ namespace RefactoringDemo
         { 
             //Gör något HELT annat
         }
+        #endregion
     }
 }
